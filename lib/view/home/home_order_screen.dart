@@ -25,7 +25,7 @@ class HomeOrderScreen extends StatelessWidget {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                "OrderS",
+                "Orders",
                 style: TextStyle(
                   color: AppColor.fontColor1,
                   fontWeight: FontWeight.w700,
