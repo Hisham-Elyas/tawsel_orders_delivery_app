@@ -30,6 +30,8 @@ class CustomSearchBar extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(10.r))),
         child: TextField(
             controller: controller,
+            onChanged: onChanged,
+            onSubmitted: onSubmitted,
             decoration: InputDecoration(
               hintText: "Search...",
               hintStyle:

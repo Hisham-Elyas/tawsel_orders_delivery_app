@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 import 'app_color.dart';
-import 'merchandiser_app/view/RTV SECTION/rtv_section.dart';
+import 'merchandiser_app/view/OFFERS/offers_screen.dart';
 import 'page_controller.dart';
 
 void main() {
@@ -30,8 +30,10 @@ class MyApp extends StatelessWidget {
         ),
         // home: const HomeOrderScreen(),
         //         merchandiser_app
-        home: const RtvSectionScreen(),
+        // home: const RtvSectionScreen(),
         // home: const InventoryScreen(),
+        home: const OffersScreen(),
+        // home: const ConfirmOffersScreen(),
       ),
     );
   }

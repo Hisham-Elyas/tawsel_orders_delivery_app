@@ -25,7 +25,7 @@ class CustomDropdownButton extends StatelessWidget {
     return Container(
       width: width ?? 360.w,
       height: height ?? 44.h,
-      margin: EdgeInsets.symmetric(horizontal: 10.w),
+      // margin: EdgeInsets.symmetric(horizontal: 10.w),
       decoration: BoxDecoration(
           color: const Color(0xffF6F6F6),
           borderRadius: BorderRadius.circular(11.r)),
